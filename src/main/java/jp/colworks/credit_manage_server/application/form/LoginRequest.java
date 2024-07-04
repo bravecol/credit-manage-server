@@ -3,10 +3,10 @@ package jp.colworks.credit_manage_server.application.form;
 import lombok.Data;
 
 @Data
-public class LoginForm {
+public class LoginRequest {
 
-    /** ユーザー名 */
-    private String username;
+    /** ユーザーID */
+    private String loginId;
     /** パスワード */
     private String password;
 }

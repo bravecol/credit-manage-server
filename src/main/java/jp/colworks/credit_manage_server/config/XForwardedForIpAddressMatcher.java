@@ -25,7 +25,7 @@ public class XForwardedForIpAddressMatcher implements RequestMatcher {
         String xForwardedFor = request.getHeader("X-Forwarded-For");
         if (!StringUtils.hasText(xForwardedFor)) {
             String[] array = xForwardedFor.split(",");
-            // X-Forwarded-Forヘッダーは経由するたびに付与される
+            // X-Forwarded-Forヘッダーは経由するたびに付与
             // 必ず認証できるように対応（偽装防止）
             return ipAddressMatcher.matches(array[array.length - 1].trim());
         }
