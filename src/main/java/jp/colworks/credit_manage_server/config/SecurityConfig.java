@@ -41,8 +41,9 @@ import jp.colworks.credit_manage_server.filter.WebAuthenticationFilter;
 @EnableWebSecurity
 public class SecurityConfig implements WebMvcConfigurer {
 
-    /** 認証対象URL */
+    /** 認証対象URLパターン */
     private static final String PERMIT_URL = "/api/**";
+    /** 認証不要URL */
     /** 認証対象URL */
     private static final String[] PERMIT_ALL = { "/api/healthcheck" };
     /** ログインURL */
