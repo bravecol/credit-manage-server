@@ -13,7 +13,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
-import jp.colworks.credit_manage_server.application.form.AuthenticationUserDetail;
+import jp.colworks.credit_manage_server.application.request.AuthenticationUserDetail;
 import jp.colworks.credit_manage_server.domain.model.LoginModel;
 import jp.colworks.credit_manage_server.domain.service.LoginService;
 import lombok.extern.slf4j.Slf4j;

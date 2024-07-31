@@ -1,4 +1,4 @@
-package jp.colworks.credit_manage_server.application.form;
+package jp.colworks.credit_manage_server.application.request;
 
 import java.util.ArrayList;
 import java.util.Collection;

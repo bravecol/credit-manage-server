@@ -1,11 +1,11 @@
-package jp.colworks.credit_manage_server.application.form;
+package jp.colworks.credit_manage_server.application.request;
 
 import java.util.Date;
 
 import lombok.Data;
 
 @Data
-public class ManageRequest {
+public class UsedDetailManageRequest {
 
     /** カードID */
     private int id;

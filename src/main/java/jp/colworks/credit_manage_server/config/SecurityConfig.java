@@ -44,8 +44,7 @@ public class SecurityConfig implements WebMvcConfigurer {
     /** 認証対象URLパターン */
     private static final String PERMIT_URL = "/api/**";
     /** 認証不要URL */
-    /** 認証対象URL */
-    private static final String[] PERMIT_ALL = { "/api/healthcheck" };
+    private static final String[] PERMIT_ALL = { "/api/healthcheck", PERMIT_URL };
     /** ログインURL */
     private static final String LOGIN_URL = "/api/login";
     /** ログアウトURL */
@@ -56,6 +55,7 @@ public class SecurityConfig implements WebMvcConfigurer {
     @Autowired
     private AppProperties properties;
 
+    /** ユーザ認証処理クラス */
     @Autowired
     private WebAuthenticationProvider authenticationProvider;
 

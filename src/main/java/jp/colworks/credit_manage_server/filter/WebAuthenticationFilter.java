@@ -8,8 +8,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jp.colworks.credit_manage_server.application.form.AuthenticationUserDetail;
-import jp.colworks.credit_manage_server.application.form.LoginRequest;
+import jp.colworks.credit_manage_server.application.request.AuthenticationUserDetail;
+import jp.colworks.credit_manage_server.application.request.LoginRequest;
 
 /**
  * ユーザ認証用のフィルタークラス

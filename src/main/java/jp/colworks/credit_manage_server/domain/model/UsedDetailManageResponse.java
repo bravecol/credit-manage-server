@@ -5,7 +5,7 @@ import java.util.Date;
 import lombok.Data;
 
 @Data
-public class ManageResponse {
+public class UsedDetailManageResponse {
     /** カード名称 */
     private String name;
     /** 利用日 */

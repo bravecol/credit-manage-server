@@ -5,7 +5,7 @@ import java.util.Date;
 import lombok.Data;
 
 @Data
-public class ManageModel {
+public class UsedDetailManageModel {
     /** カードID */
     private int id;
     /** 支払日 */
